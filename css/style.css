@@ -1,0 +1,47 @@
+h1 {
+    float: left;
+}
+
+nav {}
+
+#user {
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+header {
+    border: 2px solid blanchedalmond;
+}
+
+.container {
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 70%;
+    height: 100vh;
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas: "topleft top topright" "midleft mid midright" "lowleft low lowright";
+}
+
+div {
+    border: 2px solid black;
+}
+
+#b1 {
+    border-color: blue;
+    grid-area: topleft;
+}
+
+#b2 {
+    border-color: aqua;
+    grid-area: top;
+}
+
+#b3 {
+    grid-area: topright;
+}

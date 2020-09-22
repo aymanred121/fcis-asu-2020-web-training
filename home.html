@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Kitchen 8th</title>
+    <script src="js/reg.js"></script>
+</head>
+
+<body onload="usr_greading();return is_admin();">
+    <div class="main_container" id="home">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./home.html">Kitchen 8th</a>
+            </div>
+            <div class="navbar_items">
+                <ul>
+                    <li><a href="./home.html">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#contactus">contact</a></li>
+                    <li><a href="#ourteam">our team</a></li>
+                    <li><a class="usr_wlc" href="./login.html">login</a></li>
+                    <li><a class="usr_wlc" href="./reg.html">register</a></li>
+                    <li><a class="usr_wlc" href="" onclick="logout()">logout</a></li>
+                    <li><a href="./admin.html" onclick="logout()">admin</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner_image">
+            <div class="banner_content">
+                <h1 class="usr_wlc">Welcome to our site.</h1>
+                <br/>
+                <h1> <span>we hope that our project get into you.</span>
+                </h1>
+                <p>and always be healthy.</p>
+            </div>
+        </div>
+
+
+
+        <div class="services" id="services">
+            <h1 class="title">Our Services</h1>
+            <div class="diff_services dd">
+                <div class="diff_service_item dd">
+                    <img src="img/dialy_dish.png" alt="dialy_dish" onclick="randomRecipe()">
+                    <h3>Daily Dish</h3>
+                </div>
+                <div class="diff_service_item dd">
+                    <a href="rec.html">
+
+                        <img src="img/Recipes.jpg" alt="Recipes">
+                        <h3>Recipes</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ourteam" id="ourteam">
+            <h1 class="title">our team</h1>
+            <div class="ourteam_wrapper">
+                <div class="team-1 team">
+                    <div class="team_member">
+                        <img src="img/team1.jpg" alt="ayman_hassan">
+                    </div>
+                    <div class="team_member">
+                        <img src="img/team2.jpg" alt="youssef_nasser">
+                    </div>
+                    <div class="team_member">
+                        <img src="img/team3.jpg" alt="steven_sameh">
+                    </div>
+                </div>
+                <div class="team-2 team">
+                    <div class="team_member">
+                        <img src="img/team4.jpg" alt="abdaziz">
+                    </div>
+                    <div class="team_member">
+                        <img src="img/team5.jpg" alt="hagag">
+                    </div>
+                    <div class="team_member">
+                        <img src="img/team6.jpg" alt="khobize">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contactus" id="contactus">
+            <h1 class="title">Contact Us</h1>
+            <div class="form_wrapper">
+                <div class="form_input">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="form_input">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="btn">
+                    <a href="#">Submit</a>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h1 class="title">About us</h1>
+            <p>This site was made by GEN<big>8</big>IANS team.</p>
+        </div>
+        <div class="footer">
+            <a href="#">thanks for visiting us</a>
+        </div>
+
+        <div class="arrow">
+            <a href="./home.html"><img src="https://i.imgur.com/wre6n0O.png" alt="up_arrow"></a>
+        </div>
+    </div>
+</body>
+
+</html>

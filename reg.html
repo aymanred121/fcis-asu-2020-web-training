@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reg.css">
+    <title></title>
+    <script src="js/reg.js"></script>
+</head>
+
+<body>
+    <img src="img/41.jpg">
+    <form>
+        <img src="img/avatar-icon-images-4.jpg" id="avatar">
+        <section class="inform">
+            <div class="info2">name</div>
+            <label class="info"> <input type='text' id = 'name' name = 'name' placeholder="e.g. mohamed"></label>
+            <br>
+            <div class="info2">Email</div>
+            <label class="info"> <input type='email' name = 'email' placeholder="e.g. mark@gmail.com"> </label>
+            <br>
+            <div class="info2">Password</div>
+            <label class="info"> <input type='password' name = 'pass' id="pass" ></label><br>
+            <div class="info2">Date</div>
+            <label class="info"><input type="date" name="dateInput" id="dateInput" required></label><br>
+            <section class="info2" onclick="fmce()">
+                <label><input type="radio" name="sex" value="male" id="male" >Male</label>
+                <label><input type="radio" name="sex" value="female" id="female">Female</label>
+            </section>
+            <input type='button' value="register" onclick="return check()" class="bt">
+        </section>
+    </form>
+</body>
+
+</html>

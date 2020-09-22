@@ -1,0 +1,59 @@
+.Title {
+    margin-top: 0;
+    padding: 0;
+    background-image: url("bg_5.jpg");
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    color: #fff;
+    font-size: 100px;
+    text-align: left;
+    height: 750px;
+    line-height: 100px;
+}
+
+#nav-bar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #FF6347;
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    position: relative;
+    width: 100%;
+    z-index: 333;
+    display: table;
+    margin-top: 30px;
+}
+
+.nav-item {
+    display: inline;
+    margin-left: 3px;
+    float: left;
+}
+
+.active {
+    background-color: black;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    background-color: grey;
+}
+
+.user_info {}
